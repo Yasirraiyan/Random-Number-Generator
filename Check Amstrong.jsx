@@ -1,3 +1,5 @@
+
+ const [isArmstrong, setIsArmstrong] = useState(false);
 const checkArmstrong = (num) => {
     let sum = 0;
     let temp = num;
