@@ -1,3 +1,5 @@
+const [isPrime, setIsPrime] = useState(false);
+
 const checkPrime = (num) => {
     if (num <= 1) return false;
     for (let i = 2; i < num; i++) {
